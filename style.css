@@ -1,0 +1,21 @@
+:root {
+  --color-1: black;
+  --color-2: #fff;
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  /* border: 1px solid red; */
+}
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+}
