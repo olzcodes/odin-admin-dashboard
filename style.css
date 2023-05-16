@@ -28,7 +28,6 @@ h6 {
 body {
   display: grid;
   grid-template-columns: 0.8fr 3fr;
-  grid-template-rows: 1fr 4fr;
   font-family: "Roboto", Arial, sans-serif;
   margin: 0px;
 }
@@ -55,6 +54,62 @@ body {
   grid-row: 1 / 2;
 }
 
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 40px 20px;
+}
+
+.search-bar {
+  flex: 1;
+  display: flex;
+}
+
+.user-panel {
+  display: flex;
+  padding-right: 20px;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px 20px;
+}
+
+.greeting-container {
+  flex: 1;
+  margin: 0px 40px 0px;
+
+  display: flex;
+  align-items: center;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  margin: 0px 50px 0px;
+}
+
+.buttons-container > button {
+  background-color: royalblue;
+  color: white;
+  font-size: small;
+  font-weight: 500;
+  width: 80px;
+  text-align: center;
+  border: 2px solid skyblue;
+  border-radius: 30px;
+  padding: 10px 0px 10px;
+}
+
+.buttons-container > button:hover {
+  background-color: darkslateblue;
+  color: white;
+  font-weight: 700;
+  border: 2px solid tomato;
+}
+
 .main {
   background-color: thistle;
   grid-column: 2 / 3;
@@ -65,7 +120,7 @@ body {
   grid-template-rows: 1fr 1fr;
   gap: 20px;
 
-  padding: 30px 20px 120px;
+  padding: 30px 20px 50px;
 }
 
 .main h3 {
