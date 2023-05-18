@@ -102,6 +102,7 @@ body {
   flex: 1;
   display: flex;
   align-items: center;
+  margin-right: 20px;
 }
 
 #search-input {
@@ -113,12 +114,23 @@ body {
 
 .user-panel {
   display: flex;
+  align-items: center;
+  gap: 25px;
   padding-right: 20px;
 }
 
 .notifications-icon {
   height: 20px;
-  padding-right: 10px;
+}
+
+.user-avatar {
+  border-radius: 20px;
+  width: 40px;
+}
+
+.user-name {
+  font-size: 14px;
+  font-weight: 900;
 }
 
 .header-bottom {
@@ -133,6 +145,28 @@ body {
 
   display: flex;
   align-items: center;
+}
+
+.user-avatar-large {
+  border-radius: 40px;
+  width: 60px;
+}
+
+.greeting-text-container {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  margin: 0px 15px 0px;
+}
+
+.greeting {
+  font-size: small;
+  margin: 0px 0px 5px;
+}
+
+.user-name-full {
+  font-size: larger;
+  margin: 0px 0px 5px;
 }
 
 .buttons-container {
@@ -238,4 +272,20 @@ body {
   background-color: slateblue;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
+}
+
+.trending-item {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.trending-avatar {
+  border-radius: 20px;
+  width: 40px;
+}
+
+.trending-details {
+  font-size: small;
+  margin: 0px 15px 0px;
 }
