@@ -1,6 +1,13 @@
 :root {
-  --color-1: black;
-  --color-2: #fff;
+  --black: black;
+  --white: #fff;
+  --green: #86efac;
+  --teal: #5eead4;
+  --cyan: #67e8f9;
+  --indigo: #a5b4fc;
+  --violet: #ddd6fe;
+  --fuschia: #f0abfc;
+  --rose: #fda4af;
 }
 
 html {
@@ -94,6 +101,14 @@ body {
 .search-bar {
   flex: 1;
   display: flex;
+  align-items: center;
+}
+
+#search-input {
+  height: 25px;
+  width: 520px;
+  border: none;
+  border-radius: 50px;
 }
 
 .user-panel {
