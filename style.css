@@ -9,7 +9,6 @@
   --indigo: #a5b4fc;
   --thistle: thistle;
   --rose: #fda4af;
-  --rose-dark: #fb7185;
 
   --sidebar-bg: var(--violet);
   --nav-item-hover: var(--thistle);
@@ -17,15 +16,12 @@
   --search-bar: var(--azure);
   --thick-border: var(--black);
   --button: var(--teal);
-  --button-hover: var(--teal);
-  /* --button-hover: palegreen; */
+  --button-hover: var(--teal-dark);
   --button-text: var(--black);
   --button-text-hover: var(--white);
-  /* --button-text-hover: mediumpurple; */
   --main-bg: var(--lavender);
   --project-accent: var(--rose);
   --project-accent: aquamarine;
-  --project-accent-hover: var(--rose-dark);
   --project-accent-hover: var(--teal-dark);
   --box-shadow: rgba(147, 112, 216, 0.425);
 }
@@ -278,7 +274,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 4fr 1fr;
-  background-color: white;
+  background-color: var(--white);
   height: 180px;
   border-radius: 8px;
   border-left: 7px solid var(--project-accent);
