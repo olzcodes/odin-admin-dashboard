@@ -286,6 +286,7 @@ body {
 
 .project-card:hover {
   border-left: 7px solid var(--project-accent-hover);
+  box-shadow: 2px 2px 10px 5px var(--box-shadow);
 }
 
 .project-card h4 {
