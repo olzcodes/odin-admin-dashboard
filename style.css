@@ -17,7 +17,7 @@
   --search-bar: var(--azure);
   --thick-border: var(--black);
   --button: var(--teal);
-  --button-hover: var(--teal-dark);
+  --button-hover: var(--teal);
   /* --button-hover: palegreen; */
   --button-text: var(--black);
   --button-text-hover: var(--white);
@@ -229,6 +229,7 @@ body {
   width: 90px;
   text-align: center;
   border: 2px solid var(--button-text);
+  box-shadow: 2px 2px 5px 1px var(--box-shadow);
   border-radius: 30px;
   padding: 10px 0px 10px;
 }
@@ -238,6 +239,7 @@ body {
   color: var(--button-text-hover);
   font-weight: 700;
   border: 2px solid var(--button-text-hover);
+  box-shadow: 2px 2px 10px 5px var(--box-shadow);
   cursor: pointer;
 }
 
