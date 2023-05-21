@@ -9,6 +9,9 @@
   --indigo: #a5b4fc;
   --thistle: thistle;
   --rose: #fda4af;
+  --rose-dark: #fb7185;
+  --orange: #fb923c;
+  --blue: #60a5fa;
 
   --sidebar-bg: var(--violet);
   --nav-item-hover: var(--thistle);
@@ -53,7 +56,7 @@ body {
   background-color: lightgray;
   display: grid;
   grid-template-columns: 0.8fr 3fr;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0px;
 }
 
@@ -80,6 +83,12 @@ body {
 .logo h2 {
   padding-left: 10px;
   cursor: pointer;
+}
+
+.logo:hover .logo-svg,
+.logo:hover h2 {
+  fill: var(--indigo);
+  color: var(--white);
 }
 
 .nav-main,
@@ -139,8 +148,9 @@ body {
 }
 
 #search-input {
-  height: 25px;
+  height: 28px;
   width: 480px;
+  font-size: 16px;
   background-color: var(--search-bar);
   border: none;
   border-radius: 50px;
@@ -165,7 +175,12 @@ body {
 
 .notifications-icon {
   height: 20px;
+  padding: 0px 10px 0px;
   cursor: pointer;
+}
+
+.notifications-icon:hover {
+  fill: white;
 }
 
 .user-avatar {
@@ -253,7 +268,7 @@ body {
   grid-row: 2 / 3;
 
   display: grid;
-  grid-template-columns: 2.5fr 1fr;
+  grid-template-columns: 2.8fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 20px;
 
@@ -262,7 +277,7 @@ body {
 }
 
 .main h3 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -283,7 +298,7 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: 4fr 1fr;
   background-color: var(--white);
-  height: 180px;
+  height: 190px;
   border-radius: 8px;
   border-left: 7px solid var(--project-accent);
   box-shadow: 2px 2px 5px 1px var(--box-shadow);
@@ -296,7 +311,7 @@ body {
 }
 
 .project-card h4 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   margin-bottom: 3px;
 }
@@ -322,10 +337,22 @@ body {
 }
 
 .project-actions-icon {
-  height: 20px;
+  height: 21px;
   padding-right: 10px;
   margin: 0px 5px 0px;
   cursor: pointer;
+}
+
+.star-plus-icon:hover {
+  fill: var(--orange);
+}
+
+.eye-plus-icon:hover {
+  fill: var(--blue);
+}
+
+.source-fork-icon:hover {
+  fill: var(--rose-dark);
 }
 
 .announcements {
@@ -346,6 +373,10 @@ body {
   margin: 0px 5px 0px;
 }
 
+.announcement h5 {
+  font-size: 12px;
+}
+
 .announcement p {
   color: gray;
   font-size: 11px;
@@ -360,6 +391,7 @@ hr {
   height: 1px;
   background-color: silver;
   border: none;
+  margin: 15px 0px 15px;
 }
 
 .trending {
