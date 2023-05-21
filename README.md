@@ -6,8 +6,8 @@ https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin
 
 ## Screenshots
 
-.
+![screenshot of dashboard](./screenshots/screenshot-1.png)
 
 ## What I learned from this project
 
-.
+How to build complex layouts by combining CSS Grid and Flexbox.
